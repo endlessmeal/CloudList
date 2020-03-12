@@ -1,0 +1,221 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: #393a54; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1270px;
+  padding: 30px 30px 0 30px;
+  margin: 0 auto; }
+
+.cloudlist {
+  background-image: url("../img/clouds.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bold {
+  font-weight: 700; }
+
+.cloudlist-body {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.cloudlist-row {
+  display: flex;
+  justify-content: center; }
+
+.title {
+  font-weight: 700;
+  font-size: 3.6rem;
+  margin-bottom: 20px; }
+
+.subtitle {
+  font-weight: 400;
+  font-size: 2.4rem; }
+
+.links a {
+  color: #393a54;
+  text-decoration: none;
+  font-size: 2.4rem;
+  transition: 0.3s; }
+  .links a:hover {
+    opacity: 0.7; }
+
+.list-body {
+  display: flex;
+  justify-content: center; }
+
+.list-form {
+  padding: 25px 30px;
+  background-color: #f3f3f6;
+  opacity: 0.95;
+  border-radius: 10px; }
+
+.form-title {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #393a54;
+  margin-bottom: 20px;
+  font-weight: 700; }
+
+.form-input-title {
+  font-size: 1.2rem;
+  margin-bottom: 8px; }
+
+.form-inputs {
+  margin-bottom: 40px; }
+
+.form-input {
+  border: none;
+  background-color: #9eabbf;
+  color: #393a54;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 15px; }
+  .form-input:last-of-type {
+    margin: 0; }
+
+.form-link {
+  font-size: 1.1rem;
+  color: #393a54;
+  transition: 0.3s;
+  text-decoration: none; }
+  .form-link:hover {
+    text-decoration: underline; }
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.btn {
+  border: none;
+  background-color: #9eabbf;
+  color: #393a54;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer; }
+  .btn:hover {
+    opacity: 0.8; }
+
+.list-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem; }
+  .list-footer a {
+    text-decoration: none;
+    color: #393a54;
+    transition: 0.3s; }
+    .list-footer a:hover {
+      text-decoration: underline; }
+  .list-footer .github {
+    font-size: 1.4rem; }
+
+.task-list {
+  max-height: 70vh;
+  overflow-x: auto; }
+
+.cloudlist-col {
+  flex-basis: 50%;
+  margin: 10px; }
+
+.task-body {
+  background-color: #f3f3f6;
+  padding: 10px;
+  border: 1px solid #393a54; }
+
+.tasks-p {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 10px;
+  background-color: #b2c2e8;
+  margin-bottom: 20px; }
+
+.task-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+  .task-input button {
+    font-size: 2.4rem;
+    border: none;
+    color: #393a54;
+    padding: 5px 10px;
+    cursor: pointer; }
+    .task-input button:hover {
+      opacity: 0.8; }
+  .task-input input {
+    padding: 8px;
+    flex-basis: 80%;
+    cursor: auto;
+    font-size: 1.6rem; }
+
+.task-card {
+  background-color: #b2bdd5;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1.6rem;
+  margin-bottom: 10px; }
+  .task-card p {
+    flex-basis: 80%;
+    font-size: 1.6rem; }
+  .task-card button {
+    background-color: transparent;
+    font-size: 2.4rem;
+    border: none;
+    color: #393a54;
+    padding-right: 10px;
+    cursor: pointer; }
+    .task-card button:hover {
+      opacity: 0.8; }
+
+.notes-list {
+  max-height: 70vh;
+  overflow-x: auto; }
+
+@media (max-width: 992px) {
+  html {
+    font-size: 9px; } }
+@media (max-width: 768px) {
+  html {
+    font-size: 8.5px; } }
+@media (max-width: 576px) {
+  .container {
+    padding: 0; }
+
+  br {
+    display: none; }
+
+  html {
+    font-size: 8px; }
+
+  .title {
+    font-size: 3rem;
+    margin-bottom: 15px; }
+
+  .subtitle {
+    font-size: 2rem; }
+
+  .cloud-title {
+    text-align: center; }
+
+  .cloudlist-body {
+    padding: 20px 15px; }
+
+  .btn {
+    padding: 3px 7px; }
+
+  .cloudlist-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
+
+/*# sourceMappingURL=style.css.map */

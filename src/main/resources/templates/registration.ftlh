@@ -8,9 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/f7c380e976.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="/static/styles/style.css">
 
-    <title>CloudList</title>
+    <title>Регистрация</title>
 </head>
 
 <body>
@@ -26,9 +26,6 @@
                         </div>
 
 
-                    {{#message}}
-                        {{message}}
-                    {{/message}}
                     <div class="list-body">
                         <form class="list-form" action="/registration" method="post">
                             <p class="form-title">Регистрация</p>
@@ -37,7 +34,8 @@
                                 <input type="text" name="username" class="form-input">
                                 <p class="form-input-title">Пароль</p>
                                 <input type="password" name="password" class="form-input">
-                                <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
+                                <p class="form-input-title">${message?ifExists}</p>
+                                <input type="hidden" name="_csrf" value="${_csrf.token}" />
                             </div>
                             <div class="form-footer">
 <!--                                <a href="/registration" class="form-link">Вход</a>-->
