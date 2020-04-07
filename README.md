@@ -1,7 +1,7 @@
 # CloudList
 Pet-project based on letscode tutorial and stackoverflow
 
-## Основные применяемые технологии: 
+## Main used technologies: 
 	Back-end:
   	- Spring MVC, Security
   	- Freemarker + Bootstrap
@@ -12,16 +12,16 @@ Pet-project based on letscode tutorial and stackoverflow
    	- CSS 3
    	- JS(ES6)
 
-Основные возможности:
+Main features:
 
-Пользователи:
-- Регистрация пользователей + шифрование паролей (авторизация через почту в разработке)
-- Разграничение доступа на основе ролей
-- Управление пользователями и их ролями
+Users:
+- Registration + encrypt passwords (authorize users with mail still developing)
+- Manage access based on roles of users(ADMIN, MODER e.t.c)
+- Manage roles of users
 
-Задачи:
-- Создание, редактирование, удаление задач
-- Управление чужими задачами при наличии прав
+Tasks:
+- Basic CRUD operations
+- Manage tasks of other users if you have special role (ADMIN)
 
 
 
